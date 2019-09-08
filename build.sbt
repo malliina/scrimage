@@ -29,7 +29,7 @@ val scrimageSettings = Seq(
   sbtrelease.ReleasePlugin.autoImport.releaseCrossBuild := true,
   pomIncludeRepository := { _ => false },
   pomExtra := {
-    <url>https://github.com/sksamuel/scrimage</url>
+    <url>https://github.com/malliina/scrimage</url>
       <licenses>
         <license>
           <name>The Apache Software License, Version 2.0</name>
@@ -38,14 +38,19 @@ val scrimageSettings = Seq(
         </license>
       </licenses>
       <scm>
-        <connection>scm:git:git@github.com:sksamuel/scrimage.git</connection>
-        <developerConnection>scm:git:git@github.com:sksamuel/scrimage.git</developerConnection>
-        <url>git@github.com:sksamuel/scrimage.git</url>
+        <connection>scm:git:git@github.com:malliina/scrimage.git</connection>
+        <developerConnection>scm:git:git@github.com:malliina/scrimage.git</developerConnection>
+        <url>git@github.com:malliina/scrimage.git</url>
       </scm>
       <developers>
         <developer>
           <name>Stephen Samuel</name>
           <email>sam@sksamuel.com</email>
+          <timezone>GMT</timezone>
+        </developer>
+        <developer>
+          <name>Michael Skogberg</name>
+          <email>malle@skogberglabs.com</email>
           <timezone>GMT</timezone>
         </developer>
       </developers>
