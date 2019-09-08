@@ -7,6 +7,7 @@ val scrimageSettings = Seq(
   organization := "com.malliina",
   name := "scrimage",
   scalaVersion := "2.13.0",
+  crossScalaVersions := Seq("2.13.0", "2.12.9"),
   publishMavenStyle := true,
   publishArtifact in Test := false,
   parallelExecution in Test := false,
