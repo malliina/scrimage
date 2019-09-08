@@ -14,7 +14,8 @@ src_managed/
 project/boot/
 project/plugins/project/
 credentials.sbt
-
+.hydra
+.bloop
 # Scala-IDE specific
 .scala_dependencies
 .cache
