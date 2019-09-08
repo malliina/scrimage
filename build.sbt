@@ -4,7 +4,7 @@ val MetadataExtractorVersion = "2.8.1"
 val ScalatestVersion = "3.0.8"
 
 val scrimageSettings = Seq(
-  organization := "com.sksamuel.scrimage",
+  organization := "com.malliina",
   name := "scrimage",
   scalaVersion := "2.13.0",
   publishMavenStyle := true,
